@@ -1846,5 +1846,17 @@ p + section {
 - [ ] `id="cellar-door"`
 - [ ] `id="text-shadow"`
 - [ ] `class="cellar-door"`
+  [Reference](https://www.w3schools.com/html/html_classes.asp)
 
-[Reference](https://www.w3schools.com/html/html_classes.asp)
+### Q125. When these pseudo class selectors are applied to a link, what states will the styles be applied to?
+```a:visited:{...}
+a:active{...}
+a:hover{...}
+a:focus{...}
+```
+
+```:visited styles are applied after the link has been opened
+  :active styles are applied on mouse click
+  :hover styles are applied on mouse over
+  :focus styles are applied on mouse click and hold, or when a Tab key on a keyboard is used to navigate through links```
+
