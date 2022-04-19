@@ -760,3 +760,16 @@ public int Password
 - [ ] `Thread multitasking adds single-threaded code blocks together.`
 
 [Official Documentation: Threads](https://docs.microsoft.com/en-us/dotnet/standard/threading/threads-and-threading)
+#### Q72. Which code snippet correctly declares a CustomInt type alias of type Int32
+
+- [ ] typealias CustomInt = System.Int32;
+- [ ] var<T> CustomInt = Int32;
+- [ ] type CustomInt = System<Int32>;
+- [x] using CustomInt = System.Int32;
+    
+#### Q73. What is a destructo
+
+- [ ] an explicit called automatically when the compiler statrs running
+- [ ] a special method called automatically whenever an object is created or updated
+- [ ] an implicit method called automatically when thread pools are processed concurrently
+- [x] a special method called automatically whenever an object is deleted or destroyed
